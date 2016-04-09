@@ -25,7 +25,7 @@ class NEA:
     def get_pm25(self):
         """Return the pm2.5_update endpoint in dict format"""
         return self.get_dataset('pm2.5_update')
-    
+
     @_xml_to_dict
     def get_2hr_nowcast(self):
         """Return the 2hr forecast results from NEA in dict format"""
