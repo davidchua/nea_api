@@ -2,7 +2,7 @@
 
 Wrapper for the National Environment Agency of Singapore's Data API.
 
-__Disclaimer__: This wrapper is __NOT__ an official wrapper and we do not represent NEA in anyway. This is a community project.
+__Disclaimer__: This wrapper is __NOT__ an official wrapper and do not attempt to represent NEA in anyway.
 
 ### About
 
