@@ -38,7 +38,7 @@ from nea_api import NEA
 nea = NEA(api_key="<api key>")
 results = nea.get_pm25()
 
-# ipdb> result
+# ipdb> results
 OrderedDict([('channel', OrderedDict([('title', 'PM2.5 Update'), ('source', 'Airviro'), ('item', OrderedDict([('region', [OrderedDict([('id', 'rNO'), ('latitude', '1.41803'), ('longitude', '103.82000'), ('record', OrderedDict([('@timestamp', '20160406140000'), ('reading', OrderedDict([('@type', 'PM25_RGN_1HR'), ('@value', '17')]))]))]), OrderedDict([('id', 'rCE'), ('latitude', '1.35735'), ('longitude', '103.82000'), ('record', OrderedDict([('@timestamp', '20160406140000'), ('reading', OrderedDict([('@type', 'PM25_RGN_1HR'), ('@value', '27')]))]))]), OrderedDict([('id', 'rEA'), ('latitude', '1.35735'), ('longitude', '103.94000'), ('record', OrderedDict([('@timestamp', '20160406140000'), ('reading', OrderedDict([('@type', 'PM25_RGN_1HR'), ('@value', '19')]))]))]), OrderedDict([('id', 'rWE'), ('latitude', '1.35735'), ('longitude', '103.70000'), ('record', OrderedDict([('@timestamp', '20160406140000'), ('reading', OrderedDict([('@type', 'PM25_RGN_1HR'), ('@value', '26')]))]))]), OrderedDict([('id', 'rSO'), ('latitude', '1.29587'), ('longitude', '103.82000'), ('record', OrderedDict([('@timestamp', '20160406140000'), ('reading', OrderedDict([('@type', 'PM25_RGN_1HR'), ('@value', '30')]))]))])])]))]))])
 ```
 
