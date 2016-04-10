@@ -29,37 +29,37 @@ class NEA:
     @_xml_to_dict
     def get_2hr_nowcast(self):
         """Return the 2hr forecast results from NEA in dict format"""
-        return self.get_dataset(whoami())
+        return self.get_dataset(_whoami())
 
     @_xml_to_dict
     def get_24hrs_forecast(self):
         """Return the 24 hour forecast results from NEA in dict format"""
-        return self.get_dataset(whoami())
+        return self.get_dataset(_whoami())
 
     @_xml_to_dict
     def get_4days_outlook(self):
         """Return the 4 day outlook results from NEA in dict format"""
-        return self.get_dataset(whoami())
+        return self.get_dataset(_whoami())
 
     @_xml_to_dict
     def get_heavy_rain_warning(self):
         """Return the heavy rain warning results from NEA in dict format"""
-        return self.get_dataset(whoami())
+        return self.get_dataset(_whoami())
 
     @_xml_to_dict
     def get_uvi(self):
         """Return UV index value averaged over the past hour from NEA in dict
         format"""
-        return self.get_dataset(whoami())
+        return self.get_dataset(_whoami())
 
     @_xml_to_dict
     def get_earthquake(self):
         """Return earthquake information and advisory information from NEA in
         dict format"""
-        return self.get_dataset(whoami())
+        return self.get_dataset(_whoami())
 
     @_xml_to_dict
     def get_psi_update(self):
         """ Return overall and regional PSI data (24hr/3hr, Pollutant
         Concentration) results from NEA in dict format"""
-        return self.get_dataset(whoami())
+        return self.get_dataset(_whoami())
