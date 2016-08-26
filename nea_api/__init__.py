@@ -16,7 +16,7 @@ def _xml_to_dict(func):
 class NEA:
     def __init__(self, api_key):
         self.api_key = api_key
-        self.base_url = "http://www.nea.gov.sg/api/WebAPI/?keyref={key}".format(key=self.api_key)
+        self.base_url = "http://api.nea.gov.sg/api/WebAPI/?keyref={key}".format(key=self.api_key)
 
     def get_dataset(self, name):
         return requests.get(self.base_url + "&dataset={name}".format(name=name))

@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
   name = 'nea_api',
   packages = ['nea_api'],
-  version = '0.1.1',
+  version = '0.1.2'
   install_requires=[
         'xmltodict','requests'
   ],
